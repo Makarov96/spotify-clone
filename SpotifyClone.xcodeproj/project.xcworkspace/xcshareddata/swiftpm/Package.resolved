@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "azvideoplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamzarn/AZVideoPlayer",
+      "state" : {
+        "branch" : "main",
+        "revision" : "40c93bfcfaec4b0a8cc560da38070a7e61fcaad2"
+      }
+    }
+  ],
+  "version" : 2
+}

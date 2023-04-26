@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E13FFDCC29F7651B00B22378 /* gera.mov in Resources */ = {isa = PBXBuildFile; fileRef = E13FFDCB29F7651B00B22378 /* gera.mov */; };
+		E13FFDCF29F77FD700B22378 /* ActivityManagener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13FFDCE29F77FD700B22378 /* ActivityManagener.swift */; };
+		E13FFDD129F7800D00B22378 /* SpotifyAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13FFDD029F7800D00B22378 /* SpotifyAttributes.swift */; };
+		E13FFDD229F78BE700B22378 /* SpotifyAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13FFDD029F7800D00B22378 /* SpotifyAttributes.swift */; };
 		E1681FE529F45C530094107B /* SpotifyCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1681FE429F45C530094107B /* SpotifyCloneApp.swift */; };
 		E1681FE729F45C530094107B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1681FE629F45C530094107B /* ContentView.swift */; };
 		E1681FE929F45C540094107B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1681FE829F45C540094107B /* Assets.xcassets */; };
@@ -14,6 +18,16 @@
 		E1681FF629F45C540094107B /* SpotifyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1681FF529F45C540094107B /* SpotifyCloneTests.swift */; };
 		E168200029F45C540094107B /* SpotifyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1681FFF29F45C540094107B /* SpotifyCloneUITests.swift */; };
 		E168200229F45C540094107B /* SpotifyCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168200129F45C540094107B /* SpotifyCloneUITestsLaunchTests.swift */; };
+		E168201729F45CF30094107B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168201629F45CF30094107B /* WidgetKit.framework */; };
+		E168201929F45CF30094107B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168201829F45CF30094107B /* SwiftUI.framework */; };
+		E168201C29F45CF30094107B /* BackgroundControlsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168201B29F45CF30094107B /* BackgroundControlsBundle.swift */; };
+		E168201E29F45CF40094107B /* BackgroundControlsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168201D29F45CF30094107B /* BackgroundControlsLiveActivity.swift */; };
+		E168202029F45CF40094107B /* BackgroundControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168201F29F45CF40094107B /* BackgroundControls.swift */; };
+		E168202329F45CF40094107B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E168202229F45CF40094107B /* Assets.xcassets */; };
+		E168202529F45CF40094107B /* BackgroundControls.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E168202129F45CF40094107B /* BackgroundControls.intentdefinition */; };
+		E168202629F45CF40094107B /* BackgroundControls.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E168202129F45CF40094107B /* BackgroundControls.intentdefinition */; };
+		E168202929F45CF40094107B /* BackgroundControlsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E168201429F45CF30094107B /* BackgroundControlsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E168203229F4A3A70094107B /* stan.mov in Resources */ = {isa = PBXBuildFile; fileRef = E168203129F4A3A70094107B /* stan.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +45,33 @@
 			remoteGlobalIDString = E1681FE029F45C530094107B;
 			remoteInfo = SpotifyClone;
 		};
+		E168202729F45CF40094107B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1681FD929F45C530094107B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E168201329F45CF30094107B;
+			remoteInfo = BackgroundControlsExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E168202D29F45CF40094107B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E168202929F45CF40094107B /* BackgroundControlsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E13FFDCB29F7651B00B22378 /* gera.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = gera.mov; sourceTree = "<group>"; };
+		E13FFDCE29F77FD700B22378 /* ActivityManagener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManagener.swift; sourceTree = "<group>"; };
+		E13FFDD029F7800D00B22378 /* SpotifyAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAttributes.swift; sourceTree = "<group>"; };
 		E1681FE129F45C530094107B /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1681FE429F45C530094107B /* SpotifyCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneApp.swift; sourceTree = "<group>"; };
 		E1681FE629F45C530094107B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +82,19 @@
 		E1681FFB29F45C540094107B /* SpotifyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1681FFF29F45C540094107B /* SpotifyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITests.swift; sourceTree = "<group>"; };
 		E168200129F45C540094107B /* SpotifyCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E168200E29F45C680094107B /* SpotifyClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotifyClone.entitlements; sourceTree = "<group>"; };
+		E168200F29F45C850094107B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E168201429F45CF30094107B /* BackgroundControlsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BackgroundControlsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168201629F45CF30094107B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E168201829F45CF30094107B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E168201B29F45CF30094107B /* BackgroundControlsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundControlsBundle.swift; sourceTree = "<group>"; };
+		E168201D29F45CF30094107B /* BackgroundControlsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundControlsLiveActivity.swift; sourceTree = "<group>"; };
+		E168201F29F45CF40094107B /* BackgroundControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundControls.swift; sourceTree = "<group>"; };
+		E168202129F45CF40094107B /* BackgroundControls.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = BackgroundControls.intentdefinition; sourceTree = "<group>"; };
+		E168202229F45CF40094107B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E168202429F45CF40094107B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E168202E29F45D000094107B /* BackgroundControlsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackgroundControlsExtension.entitlements; sourceTree = "<group>"; };
+		E168203129F4A3A70094107B /* stan.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = stan.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +119,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E168201129F45CF30094107B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168201929F45CF30094107B /* SwiftUI.framework in Frameworks */,
+				E168201729F45CF30094107B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E13FFDCD29F77FC600B22378 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				E13FFDCE29F77FD700B22378 /* ActivityManagener.swift */,
+				E13FFDD029F7800D00B22378 /* SpotifyAttributes.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
 		E1681FD829F45C530094107B = {
 			isa = PBXGroup;
 			children = (
+				E168202E29F45D000094107B /* BackgroundControlsExtension.entitlements */,
 				E1681FE329F45C530094107B /* SpotifyClone */,
 				E1681FF429F45C540094107B /* SpotifyCloneTests */,
 				E1681FFE29F45C540094107B /* SpotifyCloneUITests */,
+				E168201A29F45CF30094107B /* BackgroundControls */,
+				E168201529F45CF30094107B /* Frameworks */,
 				E1681FE229F45C530094107B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +159,7 @@
 				E1681FE129F45C530094107B /* SpotifyClone.app */,
 				E1681FF129F45C540094107B /* SpotifyCloneTests.xctest */,
 				E1681FFB29F45C540094107B /* SpotifyCloneUITests.xctest */,
+				E168201429F45CF30094107B /* BackgroundControlsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +167,11 @@
 		E1681FE329F45C530094107B /* SpotifyClone */ = {
 			isa = PBXGroup;
 			children = (
+				E13FFDCD29F77FC600B22378 /* Activity */,
+				E13FFDCB29F7651B00B22378 /* gera.mov */,
+				E168203129F4A3A70094107B /* stan.mov */,
+				E168200F29F45C850094107B /* Info.plist */,
+				E168200E29F45C680094107B /* SpotifyClone.entitlements */,
 				E1681FE429F45C530094107B /* SpotifyCloneApp.swift */,
 				E1681FE629F45C530094107B /* ContentView.swift */,
 				E1681FE829F45C540094107B /* Assets.xcassets */,
@@ -127,6 +205,28 @@
 			path = SpotifyCloneUITests;
 			sourceTree = "<group>";
 		};
+		E168201529F45CF30094107B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E168201629F45CF30094107B /* WidgetKit.framework */,
+				E168201829F45CF30094107B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E168201A29F45CF30094107B /* BackgroundControls */ = {
+			isa = PBXGroup;
+			children = (
+				E168201B29F45CF30094107B /* BackgroundControlsBundle.swift */,
+				E168201D29F45CF30094107B /* BackgroundControlsLiveActivity.swift */,
+				E168201F29F45CF40094107B /* BackgroundControls.swift */,
+				E168202129F45CF40094107B /* BackgroundControls.intentdefinition */,
+				E168202229F45CF40094107B /* Assets.xcassets */,
+				E168202429F45CF40094107B /* Info.plist */,
+			);
+			path = BackgroundControls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +237,16 @@
 				E1681FDD29F45C530094107B /* Sources */,
 				E1681FDE29F45C530094107B /* Frameworks */,
 				E1681FDF29F45C530094107B /* Resources */,
+				E168202D29F45CF40094107B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E168202829F45CF40094107B /* PBXTargetDependency */,
 			);
 			name = SpotifyClone;
+			packageProductDependencies = (
+			);
 			productName = SpotifyClone;
 			productReference = E1681FE129F45C530094107B /* SpotifyClone.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +287,23 @@
 			productReference = E1681FFB29F45C540094107B /* SpotifyCloneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E168201329F45CF30094107B /* BackgroundControlsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E168202A29F45CF40094107B /* Build configuration list for PBXNativeTarget "BackgroundControlsExtension" */;
+			buildPhases = (
+				E168201029F45CF30094107B /* Sources */,
+				E168201129F45CF30094107B /* Frameworks */,
+				E168201229F45CF30094107B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundControlsExtension;
+			productName = BackgroundControlsExtension;
+			productReference = E168201429F45CF30094107B /* BackgroundControlsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +325,9 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = E1681FE029F45C530094107B;
 					};
+					E168201329F45CF30094107B = {
+						CreatedOnToolsVersion = 14.3;
+					};
 				};
 			};
 			buildConfigurationList = E1681FDC29F45C530094107B /* Build configuration list for PBXProject "SpotifyClone" */;
@@ -215,6 +339,9 @@
 				Base,
 			);
 			mainGroup = E1681FD829F45C530094107B;
+			packageReferences = (
+				E18904FF29F4DE7000C1078A /* XCRemoteSwiftPackageReference "AZVideoPlayer" */,
+			);
 			productRefGroup = E1681FE229F45C530094107B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +349,7 @@
 				E1681FE029F45C530094107B /* SpotifyClone */,
 				E1681FF029F45C540094107B /* SpotifyCloneTests */,
 				E1681FFA29F45C540094107B /* SpotifyCloneUITests */,
+				E168201329F45CF30094107B /* BackgroundControlsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -231,8 +359,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E168203229F4A3A70094107B /* stan.mov in Resources */,
 				E1681FEC29F45C540094107B /* Preview Assets.xcassets in Resources */,
 				E1681FE929F45C540094107B /* Assets.xcassets in Resources */,
+				E13FFDCC29F7651B00B22378 /* gera.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +380,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E168201229F45CF30094107B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168202329F45CF40094107B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +396,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1681FE729F45C530094107B /* ContentView.swift in Sources */,
+				E13FFDCF29F77FD700B22378 /* ActivityManagener.swift in Sources */,
 				E1681FE529F45C530094107B /* SpotifyCloneApp.swift in Sources */,
+				E13FFDD129F7800D00B22378 /* SpotifyAttributes.swift in Sources */,
+				E168202629F45CF40094107B /* BackgroundControls.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +420,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E168201029F45CF30094107B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168202529F45CF40094107B /* BackgroundControls.intentdefinition in Sources */,
+				E168202029F45CF40094107B /* BackgroundControls.swift in Sources */,
+				E168201E29F45CF40094107B /* BackgroundControlsLiveActivity.swift in Sources */,
+				E13FFDD229F78BE700B22378 /* SpotifyAttributes.swift in Sources */,
+				E168201C29F45CF30094107B /* BackgroundControlsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +444,11 @@
 			isa = PBXTargetDependency;
 			target = E1681FE029F45C530094107B /* SpotifyClone */;
 			targetProxy = E1681FFC29F45C540094107B /* PBXContainerItemProxy */;
+		};
+		E168202829F45CF40094107B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E168201329F45CF30094107B /* BackgroundControlsExtension */;
+			targetProxy = E168202729F45CF40094107B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,14 +570,18 @@
 		E168200629F45C540094107B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotifyClone/SpotifyClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyClone/Preview Content\"";
 				DEVELOPMENT_TEAM = PS665D4U8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,14 +603,18 @@
 		E168200729F45C540094107B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotifyClone/SpotifyClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyClone/Preview Content\"";
 				DEVELOPMENT_TEAM = PS665D4U8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,6 +709,62 @@
 			};
 			name = Release;
 		};
+		E168202B29F45CF40094107B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BackgroundControlsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS665D4U8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BackgroundControls/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BackgroundControls;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevencol.SpotifyClone.BackgroundControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E168202C29F45CF40094107B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BackgroundControlsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS665D4U8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BackgroundControls/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BackgroundControls;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevencol.SpotifyClone.BackgroundControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,7 +804,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E168202A29F45CF40094107B /* Build configuration list for PBXNativeTarget "BackgroundControlsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168202B29F45CF40094107B /* Debug */,
+				E168202C29F45CF40094107B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E18904FF29F4DE7000C1078A /* XCRemoteSwiftPackageReference "AZVideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamzarn/AZVideoPlayer";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = E1681FD929F45C530094107B /* Project object */;
 }
